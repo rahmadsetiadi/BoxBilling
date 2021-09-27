@@ -1,43 +1,43 @@
-# BOXBILLING RUNNING IN DOCKER CONTAINER
+# BOXBILLING RUNNING ON DOCKER 
 
 ### Author: RAHMAD SETIADI
 
 ## Prerequisites
 
-- git
 - Docker 
 - Docker-Compose
 
 
-## Installation
-
-Clone this repository to local forder
-
-```git clone sdfsdfsdfsd```
-
 ## How to run
 
-From the the local folder:
-
 ```   
-    open shell terminal (windows: cmd)
-    docker-compose up -d
-        Environtment Setup, Database initialitation and data-seeding may take a while. in the meantime, you may see 'mysql error: connection refused'. please wait a couple minutes to complete.
-    For client page, open [localhost](http://localhost/).
-    For Admin staff, open [localhost](http://localhost/bb-admin/staff/login) . user: admin@boxbilling.com pass: 123456
-
+    1. First, Clone this repository into your local forder.
+    
+    2. Open shell terminal (windows: cmd)
+    
+    3. Type: docker-compose up -d
+    
+        Environtment Setup and Database Seeding may take a while. 
+        In the meantime, you might see 'mysql error: connection refused'. 
+        Please wait a couple minutes until the process is completed.
+        
+    4. View in Browser.
+    
+        Client Page => [localhost](http://localhost/).
+        Admin Page => [localhost](http://localhost/bb-admin/staff/login) . 
+            
+        Login to BoxBilling Admin:
+        - user: admin@boxbilling.com 
+        - pass: 123456
 
 ```
 
-## Credential
+## Database Credential
 
 ```   
     MYSQL DB
     DB_HOST = mysql
     DB_NAME = boxbilling
     DB_USER = boxbilling
-    DB_PASS = boxbilling
-    
-
+    DB_PASS = boxbilling   
 ```
-
