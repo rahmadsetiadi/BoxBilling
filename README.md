@@ -22,9 +22,10 @@
         Please wait a couple minutes until the process is completed.
         
     4. View in Browser.
-    
-        Client Page => [localhost](http://localhost/).
-        Admin Page => [localhost](http://localhost/bb-admin/staff/login) . 
+
+        BoxBilling Admin Page => http://localhost/bb-admin/staff/login
+        BoxBilling Client Page => http://localhost/
+        FrontEnd Homepage => http://localhost/public/index.php
             
         Login to BoxBilling Admin:
         - user: admin@boxbilling.com 
